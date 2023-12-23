@@ -1,0 +1,224 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d36aa7;
+}
+
+/*Code css pour l'entête (section 0)*/
+
+header{
+    background-color: #e67dea;
+    color: black;
+    display: flex;
+    width: 100vw;
+    position:fixed;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+    background-image: url(../images/logoo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+    height: 80px;
+}
+h1{
+    font-family: 'Rubik Doodle Shadow', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header figure{
+    display: flex;
+}
+
+a{
+    color: white;
+    margin: 20%;
+    background-color: aqua;
+}
+a:hover{
+    color: rgb(52, 0, 100);
+}
+#button{
+    float: inline-start;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    background-color: rgb(228, 228, 228);
+    margin: 10px;
+    margin-top: 0;
+    margin-left: 0;
+}
+nav{
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #741359;
+    width: 15%;
+    align-items: center;
+    transition: all 1s;
+    opacity: 0;
+}
+nav:hover{
+    opacity: 100;
+}
+/*Fin entête*/
+
+/*Première section: accueil*/
+#Accueil{
+    padding-top: 110px;
+    display: flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+    align-items: center;
+}
+/*fin accueil*/
+
+/*Deuxième section:article*/
+#Articles {
+padding-top: 110px;
+ color: #280729;
+ display: flex;
+ flex-direction: row;
+
+ background-image: url(../images/nuage.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 90%;
+ min-width: 1200px;
+ margin: 5%;
+}
+#start, #second, #third{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 300px;
+    margin: 5%;
+}
+/*Fin article*/
+
+/*Troisième section:Tableau*/
+table {
+    margin-top: 110px;
+    background-color: #e67dea;
+    width: 80%;
+    border: 1px solid #280729;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 10%;
+}
+
+tr, td {
+    border: 1px solid #280729;
+}
+th{
+    background-color: #280729;
+    color: #e67dea;
+}
+/*Fin tableau*/
+
+/*Quatrième section: galerie*/
+#Galerie{
+    
+    background-color: #280729;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#conteneur{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    width: 100px;
+}
+#conteneur :hover{
+    transform: scale(2) rotate(180deg);
+    transition: all 1s;
+    }
+img{
+    width: 100px;
+    height: 100px;
+}
+figcaption{
+    color: #e67dea;
+}
+span{
+    font-family: 'Sevillana', cursive;
+}
+/*Fin galerie*/
+
+/*Cinquième section: inscription*/
+form, fieldset.nom, fieldset.prenom, fieldset.fete, fieldset.decouvert, fieldset.grouoe, fieldset.membre, fieldset.couleur{
+    display: flex;
+    justify-content: space-around;
+
+}
+fieldset.colonne{
+    width: 45%;
+    border: none;
+    background-color: rgba(89, 4, 66, 0.736);
+}
+#inscription{
+    align-items: center;
+}
+
+/*Fin inscriptions*/
+
+/*pied de page*/
+footer{
+    justify-content: space-around;
+}
+/*séparation du texte centrer avec le reste du pied de page*/
+#ref{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    background-color: #280729;
+    color: azure;
+}
+h2{
+    font-weight:lighter;
+}
+
+footer div{
+    padding: 0;
+}
+#foot{
+    display: flex;
+    flex-direction: row;
+}
+#foot div{
+    margin-right: 10%;
+}
+
+#adresse, #reseau, #tim{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+h3{
+    padding: 10px;
+}
+span{
+    margin-left: 20px;
+}
+
+
+
+
+{}
